@@ -21,10 +21,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import static java.util.stream.Collectors.toList;
 import static org.springframework.objenesis.instantiator.util.UnsafeUtils.getUnsafe;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 @Service
 public class CartServiceImpl implements CartService {
 

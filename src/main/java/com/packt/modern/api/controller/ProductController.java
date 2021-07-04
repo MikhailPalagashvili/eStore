@@ -12,10 +12,7 @@ import java.util.List;
 
 import static org.springframework.http.ResponseEntity.ok;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 @RestController
 public class ProductController implements ProductApi {
 

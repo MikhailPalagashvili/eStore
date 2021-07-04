@@ -22,10 +22,7 @@ import java.time.Instant;
 import static com.packt.modern.api.security.Constants.TOKEN_URL;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 @Component
 public class ApiAuthenticationEntryPoint implements AuthenticationEntryPoint {
 

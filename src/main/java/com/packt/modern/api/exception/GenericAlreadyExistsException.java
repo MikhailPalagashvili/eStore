@@ -1,9 +1,6 @@
 package com.packt.modern.api.exception;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 public class GenericAlreadyExistsException extends RuntimeException {
 
     private static final long serialVersionUID = 1L;

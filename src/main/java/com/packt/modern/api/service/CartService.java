@@ -6,10 +6,7 @@ import com.packt.modern.api.model.Item;
 import javax.validation.Valid;
 import java.util.List;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 public interface CartService {
 
     List<Item> addCartItemsByCustomerId(String customerId, @Valid Item item);

@@ -5,10 +5,7 @@ import com.packt.modern.api.model.Item;
 
 import java.util.List;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 public interface ItemService {
 
     ItemEntity toEntity(Item m);

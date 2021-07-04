@@ -7,10 +7,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.util.Optional;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 public interface PaymentService {
 
     Optional<AuthorizationEntity> authorize(@Valid PaymentReq paymentReq);

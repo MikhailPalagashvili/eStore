@@ -15,10 +15,7 @@ import java.util.List;
 
 import static org.springframework.http.ResponseEntity.*;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 @RestController
 public class CustomerController implements CustomerApi {
 

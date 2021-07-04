@@ -5,10 +5,6 @@ import com.packt.modern.api.model.AddAddressReq;
 
 import java.util.Optional;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
 public interface AddressService {
     Optional<AddressEntity> createAddress(AddAddressReq addAddressReq);
 

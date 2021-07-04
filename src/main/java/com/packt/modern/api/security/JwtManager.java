@@ -14,10 +14,6 @@ import static com.packt.modern.api.security.Constants.EXPIRATION_TIME;
 import static com.packt.modern.api.security.Constants.ROLE_CLAIM;
 import static java.util.stream.Collectors.toList;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
 @Component
 public class JwtManager {
 

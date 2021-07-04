@@ -5,10 +5,7 @@ import com.packt.modern.api.model.NewOrder;
 
 import java.util.Optional;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 public interface OrderRepositoryExt {
     Optional<OrderEntity> insert(NewOrder m);
 }

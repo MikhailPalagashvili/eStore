@@ -25,10 +25,7 @@ import java.util.Locale;
 
 import static com.packt.modern.api.security.Constants.TOKEN_URL;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 @ControllerAdvice
 public class RestApiErrorHandler {
 

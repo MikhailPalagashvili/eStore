@@ -4,10 +4,7 @@ import com.packt.modern.api.entity.ShipmentEntity;
 
 import javax.validation.constraints.Min;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 public interface ShipmentService {
     Iterable<ShipmentEntity> getShipmentByOrderId(@Min(value = 1L, message = "Invalid product ID.") String id);
 }

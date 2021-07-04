@@ -1,12 +1,5 @@
 package com.packt.modern.api.exception;
 
-/**
- * An enumeration of error codes and associated i18n message keys for order
- * related validation errors.
- *
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
 public enum ErrorCode {
     // Internal Errors: 1 to 0999
     GENERIC_ERROR("PACKT-0001", "The system is unable to complete the request. Contact system support."),

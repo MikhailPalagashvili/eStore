@@ -11,10 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 @Service
 public class UserDetailServiceImpl implements UserDetailsService {
 

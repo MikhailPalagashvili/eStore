@@ -23,10 +23,6 @@ import java.util.stream.Collectors;
 
 import static com.packt.modern.api.security.Constants.*;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
 public class JwtAuthenticationFilter extends BasicAuthenticationFilter {
 
     public JwtAuthenticationFilter(AuthenticationManager authenticationManager) {

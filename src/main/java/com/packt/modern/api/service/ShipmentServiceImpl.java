@@ -8,10 +8,7 @@ import javax.validation.constraints.Min;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * @author : github.com/sharmasourabh
- * @project : Chapter06 - Modern API Development with Spring and Spring Boot
- **/
+
 @Service
 public class ShipmentServiceImpl implements ShipmentService {
 
